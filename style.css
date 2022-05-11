@@ -1,0 +1,113 @@
+
+
+* {
+    font-family: 'Nunito', sans-serif;
+}
+
+.menu__header{
+    display: flex;
+    justify-content: space-between;
+
+
+    box-shadow: -1px 5px 19px 2px rgba(0,0,0,0.55);
+}
+
+
+.nav{
+    display: flex;
+    justify-content: end;
+    width: 75%;
+    justify-content: flex-end;
+
+    
+}
+
+.menu{
+    display: flex;
+    justify-content: flex-end;
+    gap: 3rem;
+    width: 75%;
+    display: flex;
+    align-items: center;
+   
+
+}
+.menu__option{
+    list-style:none;
+    font-weight: 800;
+    padding: 10px 20px;
+}
+
+.main{
+    padding: 0 30px;
+}
+.header{
+
+}
+.menu__letra{
+   color: orange;
+
+}
+.main__view{
+    list-style:none;
+
+
+}
+.class{
+display: flex;
+
+}
+.main__pic{
+    border-radius: 10%;
+
+    width: 450px;
+    height: 600px;
+    padding: 10px 20px;
+    display: flex;
+    justify-content: center;
+
+}
+.menu_button{
+    display: flex;
+    justify-content: space-between;
+    
+
+}
+
+
+.menu__letra2{
+size: 67px;
+font-size: 4em;
+margin-top: -20px;
+}
+.button{
+    background-color: white;
+    padding: 1;
+border: solid #cf7106 3px;
+border-radius: 0% 20px 20px 20px ;
+font-size: 25px;
+font-weight: 800;
+
+
+font-weight: 800;
+padding: 10px 20px;
+}
+.button:hover {
+    background-color:orange;
+    color: white;
+    border: 2px solid orange;
+}
+
+
+.main__all{
+    color: white;
+    background-color: orange;
+    padding: 1;
+border: solid orange 3px;
+border-radius: 0% 20px 20px 20px;
+width: 200px;
+height: 90px;
+font-size: 25px;
+font-weight: 800;
+padding: 10px 20px;
+}
