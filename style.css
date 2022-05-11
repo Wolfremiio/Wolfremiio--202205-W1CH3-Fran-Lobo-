@@ -60,9 +60,11 @@ display: flex;
 .main__pic{
     border-radius: 10%;
 
-    width: 400px;
-    height: 500px;
+    width: 450px;
+    height: 600px;
     padding: 10px 20px;
+    display: flex;
+    justify-content: center;
 
 }
 .menu_button{
@@ -71,6 +73,8 @@ display: flex;
     
 
 }
+
+
 .menu__letra2{
 size: 67px;
 font-size: 4em;
@@ -79,19 +83,31 @@ margin-top: -20px;
 .button{
     background-color: white;
     padding: 1;
-border: solid orange 3px;
-border-radius: 10%;
+border: solid #cf7106 3px;
+border-radius: 0% 20px 20px 20px ;
+font-size: 25px;
+font-weight: 800;
+
 
 font-weight: 800;
 padding: 10px 20px;
 }
+.button:hover {
+    background-color:orange;
+    color: white;
+    border: 2px solid orange;
+}
+
+
 .main__all{
     color: white;
     background-color: orange;
     padding: 1;
 border: solid orange 3px;
-border-radius: 10%;
-
+border-radius: 0% 20px 20px 20px;
+width: 200px;
+height: 90px;
+font-size: 25px;
 font-weight: 800;
 padding: 10px 20px;
 }
